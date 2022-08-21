@@ -1,15 +1,13 @@
-## Nexus Repository Space utilization Report
+## Nexus Repository Space Utilization Report
 
 This script can be used to generate Nexus Repository manager space utilization report, Which can help to clean up/optimize space utilization.
 You can get aa detailed report which shows all the content size in MB, also it is possible to filter the same using using various criteria like Blob Storage Name, Repository Name, Blob Name, Size, Content type, Created By, Creation Time & Created By IP.
 
 ## Quick Start
 
-```
-git clone https://github.com/shamsher-ansari/nxrm-space-utilization.git
-cd nxrm-space-utilization/Main
-python run.py #Please run with a user who have access to read Nexus blob storage.
-```
+```git clone https://github.com/shamsher-ansari/nxrm-space-utilization.git```
+```cd nxrm-space-utilization/Main```
+```python run.py #Please run with a user who have access to read Nexus blob storage.```
 
 <strong> This should display below output: </strong>
 
