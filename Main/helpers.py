@@ -24,9 +24,8 @@ def input_blob_path(NEXUS_BLOB_PATH):
 
             if os.path.isdir(nexus_blob_path_input):
                 break
-            
-        else:
-            print(nexus_blob_path_input + " path does not exists.\n")
+            else:
+                print(nexus_blob_path_input + " path does not exists.\n")
 
         if os.path.isdir(nexus_blob_path_input):
             break
