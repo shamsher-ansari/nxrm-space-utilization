@@ -24,8 +24,11 @@ def input_blob_path(NEXUS_BLOB_PATH):
 
             if os.path.isdir(nexus_blob_path_input):
                 break
+            
+        else:
+            print(nexus_blob_path_input + " path does not exists.\n")
 
-        elif os.path.isdir(nexus_blob_path_input):
+        if os.path.isdir(nexus_blob_path_input):
             break
         else:
             print(nexus_blob_path_input + " path does not exists.\n")
@@ -221,8 +224,6 @@ def get_filter_files_with_properties(filepaths_properties,search_blob_storage_na
         createdBy_filepaths_properties = filepaths_properties[i].split(',')[5]
         creationTime_filepaths_properties = filepaths_properties[i].split(',')[6]
         createdByIp_filepaths_properties = filepaths_properties[i].split(',')[7]
-
-        print("Filter: Repo: \""+repoName_filepaths_properties+"\"")
 
         if re.search(search_blob_storage_name, blob_storage_name_filepaths_properties, re.IGNORECASE) and re.search(search_repoName, repoName_filepaths_properties, re.IGNORECASE) and re.search(search_blobName, blobName_filepaths_properties, re.IGNORECASE) and re.search(search_contentType, contentType_filepaths_properties, re.IGNORECASE) and re.search(search_createdBy, createdBy_filepaths_properties, re.IGNORECASE) and re.search(search_creationTime, creationTime_filepaths_properties, re.IGNORECASE) and re.search(search_createdByIp, createdByIp_filepaths_properties, re.IGNORECASE):
             filtered_filepaths_properties.append(blob_storage_name_filepaths_properties+","+repoName_filepaths_properties+","+blobName_filepaths_properties+","+contentType_filepaths_properties+","+size_filepaths_properties+","+createdBy_filepaths_properties+","+creationTime_filepaths_properties+","+createdByIp_filepaths_properties)
