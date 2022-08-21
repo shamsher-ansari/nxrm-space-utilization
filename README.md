@@ -15,7 +15,7 @@ This should display below output:
 
 <!-- logo -->
 <p align="center">
-  <img src="output_report.png">
+  <img src="output_report.PNG">
 </p>
 
 ## History - The Need
