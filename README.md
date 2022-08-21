@@ -24,7 +24,7 @@ python run.py #Please run with a user who have access to read Nexus blob storage
 
 ## History - The Need
 
-I was try to get some method to find out the Nexus repository utilization by Repository name, Blob Name, Content type, Date/Time, Created By, etc. But could find the same. At last I prepared this script and sharing the same to help out the communituy. Please note that this is a open source script please refer the License in the repository. Hope to add new feature in the script.
+I was try to get some method to find out the Nexus repository utilization by Repository name, Blob Name, Content type, Date/Time, Created By, etc. But couldn't find the one. At last I prepared this script and I am sharing the same to help out the community. Please note that this is an open source script please refer the License in the repository. Looking forward to add new features in this script.
 
 ## Requirements
 
