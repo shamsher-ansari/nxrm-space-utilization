@@ -5,9 +5,15 @@ You can get aa detailed report which shows all the content size in MB, also it i
 
 ## Quick Start
 
-```git clone https://github.com/shamsher-ansari/nxrm-space-utilization.git```
-```cd nxrm-space-utilization/Main```
-```python run.py #Please run with a user who have access to read Nexus blob storage.```
+```
+git clone https://github.com/shamsher-ansari/nxrm-space-utilization.git
+```
+```
+cd nxrm-space-utilization/Main
+```
+```
+python run.py #Please run with a user who have access to read Nexus blob storage.
+```
 
 <strong> This should display below output: </strong>
 
